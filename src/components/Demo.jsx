@@ -56,11 +56,11 @@ const Demo = () => {
                 />
                 <input
                     type="url"
-                    placeholder="Enter an URL"
+                    placeholder="Ingrese una URL"
                     value={article.url}
                     onChange={(e)=> setArticle({...article, url: e.target.value}) }
                     required
-                    className="url_input peer"    
+                    className="block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0 peer"    
                 />
                 <button type="submit" className="submit_btn peer-focus: border-gray-700 peer-focus:text-gray-700">
                     ↵
@@ -88,7 +88,7 @@ const Demo = () => {
                 (article.summary && (
                     <div className="flex flex-col gap-3">
                         <h2 className="font-satoshi font-bold text-gray-600 text-xl">
-                            Article <span className="blue_gradient">Summary</span>
+                            Artículo <span className="orange_gradient">Resumido</span>
                         </h2>
                         <div className="summary_box">
                             <p className="font-inter font-medium text-sm text-gray-700">

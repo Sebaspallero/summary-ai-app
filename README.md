@@ -1,8 +1,4 @@
-# React + Vite
+# Sumz - AI App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simplifique su lectura con Sumz, una herramienta para hacer resumenes con inteligencia artificial. Transforme artículos extensos en resúmenes claros y concisos con la ayuda de GPT-4 y consiga optimizar su tiempo.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

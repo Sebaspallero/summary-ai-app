@@ -9,12 +9,13 @@ const Hero = () => {
                 Github
             </a>
         </nav>
-        <h1 className="head_text">
-            Summarize Articles with <br/>
+        <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center">
+        Resumí artículos con
+            <br/>
             <span className="orange_gradient"> OpenAI GPT-4</span>
         </h1>
-        <h2 className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sint distinctio ullam illum, qui cumque saepe doloribus ab quis alias veniam quaerat in quam eius vel, error consectetur, voluptas sit?
+        <h2 className="mt-6 text-lg text-gray-600 sm:text-xl text-center max-w-2xl">
+            Simplifique su lectura con Sumz, una herramienta para hacer resumenes con inteligencia artificial. Transforme artículos extensos en resúmenes claros y concisos con la ayuda de GPT-4 y consiga optimizar su tiempo.
         </h2>
     </header>
   )
