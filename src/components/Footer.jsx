@@ -1,5 +1,5 @@
 import React from 'react'
-import { GithubIcon, LinkedinIcon, Wallet } from 'lucide-react'
+import { GithubIcon, LinkedinIcon, Coffee } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -14,8 +14,8 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/sebastian-pallero-or%C3%ADa/' target="_blank" rel="noreferrer">
                 <LinkedinIcon size={25} color='#4b5563' className='cursor-pointer'/>
             </a>
-            <a href='https://mpago.la/2Ym6BQm' target="_blank" rel="noreferrer">
-                <Wallet size={25} color='#4b5563' className='cursor-pointer'/>
+            <a href='https://cafecito.app/sebastianpallero' target="_blank" rel="noreferrer">
+                <Coffee size={25} color='#4b5563' className='cursor-pointer'/>
             </a>
         </div>
     </footer>
